@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow2"
+    tools:context=".categories">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0E090A"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Inventory Category" />
+
+    <Button
+        android:id="@+id/stationarybtn"
+        android:layout_width="273dp"
+        android:layout_height="78dp"
+        android:background="@drawable/shape"
+        android:text="Stationeries"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:backgroundTint="#F8229AC1"
+        app:cornerRadius="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255"
+        app:rippleColor="#7C1D1D"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/personalCareBtn"
+        android:layout_width="273dp"
+        android:layout_height="78dp"
+        android:background="@drawable/shape"
+        android:text="Personal Care"
+        android:textSize="24sp"
+        app:backgroundTint="#F8229AC1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <Button
+        android:id="@+id/electronicAppBtn"
+        android:layout_width="273dp"
+        android:layout_height="78dp"
+        android:background="@drawable/shape"
+        android:text="Electronic Appliances"
+        android:textSize="24sp"
+        app:backgroundTint="#F8229AC1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <Button
+        android:id="@+id/groceriesbtn"
+        android:layout_width="273dp"
+        android:layout_height="78dp"
+        android:background="@drawable/shape"
+        android:text="Groceries"
+        android:textSize="24sp"
+        app:backgroundTint="#F8229AC1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <Button
+        android:id="@+id/menuBtn"
+        android:layout_width="273dp"
+        android:layout_height="78dp"
+        android:background="@drawable/shape"
+        android:text="Menu"
+        android:textSize="24sp"
+        app:backgroundTint="#F8229AC1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
